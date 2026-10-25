@@ -9,8 +9,7 @@ def even_list(int_list: List[int]) -> List[int]:
 
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """Return sum of squares of even integers."""
-    # TODO: Implement sum_of_squares_of_even
-    pass
+    return sum(num ** 2 for num in even_int_list)
 
 
 def main():
